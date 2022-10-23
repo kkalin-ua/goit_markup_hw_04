@@ -147,7 +147,8 @@ h1, h2, h3, ul, p, li {
   margin-right: 30px;
 }
 
-.header-navigation {
+.header-navigation,
+.header-container {
   display: flex;
   align-items: center;
   /* border-bottom: 1px solid #ECECEC; */
