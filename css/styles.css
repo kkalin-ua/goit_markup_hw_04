@@ -106,7 +106,7 @@ h1, h2, h3, ul, p, li {
   color: var(--black-color);
 }
 .contact-link-icon {
-  vertical-align: middle;
+  vertical-align: text-top;
   margin-right: 10px;
   width: 16px;
 
@@ -150,10 +150,11 @@ h1, h2, h3, ul, p, li {
 .header-navigation {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ECECEC;
-
+  /* border-bottom: 1px solid #ECECEC; */
 }
-
+header {
+  border-bottom: 1px solid #ECECEC;
+}
 
 /* ===== main ===== */
 .section-cap {
