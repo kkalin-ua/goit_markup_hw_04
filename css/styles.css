@@ -365,21 +365,19 @@ header {
 .member-link-item:focus {
   background-color: var(--blue-color);
 }
+.links-icon {
+  height: 44px;
+  padding: 12px;
+}
 .links-icon,
 .contact-link-icon,
 .client-logo-icon {
   /* fill: tomato; */
   fill: var(--text-secondary);
 }
-.links-icon {
-  height: 44px;
-  padding: 12px;
-}
-
 .links-icon:hover {
   fill: var(--white-color);
 }
-
 .client-logo-icon:hover,
 .contact-link-icon:hover {
   fill: var(--blue-color)
@@ -404,8 +402,9 @@ header {
   margin-left: 30px;
 }
 .client-logo-icon {
-  width: 160px;
-  height: 106px;
+  /* width: 60px; */
+  height: 160px;
+  padding: 16px 32px;
 
 }
 
