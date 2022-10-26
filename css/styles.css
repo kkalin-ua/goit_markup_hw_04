@@ -127,7 +127,9 @@ h1, h2, h3, ul, p, li {
 .footer-tel:hover,
 .footer-tel:focus,
 .section-cap-btn:hover,
-.section-cap-btn:focus
+.section-cap-btn:focus,
+.header-items-adress:hover,
+.header-items-adress:focus
  {
   color: var(--blue-color);
 }
@@ -223,7 +225,8 @@ header {
   content: '';
   display: block;
   height: 120px;
-  background: #F5F4FA;
+  width: 270px;
+  background-color: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
   background-repeat: no-repeat;
@@ -246,7 +249,7 @@ header {
 }
 .icon-astronavt::before{
   background-image: url(../images/astronaut.png);
-  background-size: 66px 70px;
+  background-size: 55px 60px;
 }
 
 
@@ -367,6 +370,10 @@ header {
 .client-logo-icon {
   /* fill: tomato; */
   fill: var(--text-secondary);
+}
+.links-icon {
+  height: 44px;
+  padding: 12px;
 }
 
 .links-icon:hover {
