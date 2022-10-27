@@ -109,7 +109,7 @@ h1, h2, h3, ul, p, li {
   vertical-align: text-top;
   margin-right: 10px;
   width: 16px;
-
+  height: 16px;
 }
 
 
@@ -127,12 +127,14 @@ h1, h2, h3, ul, p, li {
 .footer-tel:hover,
 .footer-tel:focus,
 .section-cap-btn:hover,
-.section-cap-btn:focus,
-.header-items-adress:hover,
-.header-items-adress:focus
- {
+.section-cap-btn:focus {
   color: var(--blue-color);
 }
+/* .header-items-adress:hover, */
+/* .header-items-adress:focus */
+
+
+
 
 .header-list {
   display: flex;
