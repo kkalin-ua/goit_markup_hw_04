@@ -110,6 +110,7 @@ h1, h2, h3, ul, p, li {
   margin-right: 10px;
   width: 16px;
   height: 16px;
+  
 }
 
 
@@ -372,18 +373,22 @@ header {
   padding: 12px;
 }
 .links-icon,
-.contact-link-icon,
 .client-logo-icon {
   /* fill: tomato; */
   fill: var(--text-secondary);
 }
+/* .contact-link-icon, */
+
+
 .links-icon:hover {
   fill: var(--white-color);
 }
-.client-logo-icon:hover,
-.contact-link-icon:hover {
+.client-logo-icon:hover {
   fill: var(--blue-color)
 }
+/* .contact-link-icon:hover  */
+.contact-link-icon {
+  fill: currentColor;}
 
 /* section-clients */
 
