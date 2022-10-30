@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HomeWork#1</title>
+  <title>HomeWork#5</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,7 @@
       <a class="header-logo link" href="./index.html">Web<span class="header-logo-2">Studio</span></a>
         
       <ul class="header-list list">
-        <li class="header-item"><a class="header-link link" href="./index.html">Студія</a></li>
+        <li class="header-item"><a class="header-link link activ" href="./index.html">Студія</a></li>
         <li class="header-item"><a class="header-link link" href="./portfolio.html">Портфоліо</a></li>
         <li class="header-item"><a class="header-link link" href="#">Контакти</a></li>
       </ul>
@@ -65,7 +65,9 @@
 
       <div class="container">
           <h1 class="section-cap-h1">Ефективні рішення для<br>вашого бізнесу</h1>
-          <button class="section-cap-btn" type="button"><span class="section-cap-btn-span">Замовити послугу</span></button>
+          <button class="section-cap-btn" type="button" data-modal-open>
+            <span class="section-cap-btn-span">Замовити послугу</span>
+          </button>
       </div>
 
   </section>
@@ -106,14 +108,22 @@
     <div class="container">
       <h2 class="section-title">Чим ми займаємося</h2>
       <ul class="section-work-list">
-          <li class="section-work-item list"><img  class="section-work-img" src="./images/box_1.jpg" alt="photo" width="370" height="294"></li>
-          <li class="section-work-item list"><img  class="section-work-img" src="./images/box_2.jpg" alt="photo" width="370" height="294"></li>
-          <li class="section-work-item list"><img  class="section-work-img" src="./images/box_3.jpg" alt="photo" width="370" height="294"></li>
+          <li class="section-work-item list">
+            <img  class="section-work-img" src="./images/box_1.jpg" alt="photo" width="370" height="294">
+            <h3 class="overley-title">Десктопні додатки</h3>
+          </li>
+          <li class="section-work-item list">
+            <img  class="section-work-img" src="./images/box_2.jpg" alt="photo" width="370" height="294">
+            <h3 class="overley-title">Мобільні додатки</h3>
+          </li>
+          <li class="section-work-item list">
+            <img  class="section-work-img" src="./images/box_3.jpg" alt="photo" width="370" height="294">
+            <h3 class="overley-title">Дизайнерські рішення</h3>
+          </li>
       </ul>
     </div>
 
   </section>
-
 
   <!-- Команда компанії -->
   <section class="section-team section">
@@ -354,5 +364,17 @@
 
 </footer>
 
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+  <button type="button" class="modal-btn" data-modal-close><svg class="modal-icon"><use href="./images/svg/symbol-defs.svg#icon-close"></use></svg></button>
 
+  </div>
+</div>
+
+
+
+
+
+<script src="./js/modal.js"></script>
+</body>
 </html>
